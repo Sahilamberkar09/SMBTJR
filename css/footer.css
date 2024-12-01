@@ -1,0 +1,101 @@
+.footer__section {
+  background-image: linear-gradient(var(--primary_2), white);
+}
+
+.footer__container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 1rem 2rem;
+}
+.container__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.college__info,
+.quick__info,
+.contact__info,
+.map__info {
+  margin-top: 1rem;
+}
+
+.college__info h3,
+.quick__info h3,
+.contact__info h3,
+.map__info h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.college__info h3:hover,
+.quick__info h3:hover,
+.contact__info h3:hover,
+.map__info h3:hover {
+  color: var(--primary);
+}
+
+.college__info p,
+.contact__info .address,
+.map__info .map__container {
+  margin-top: 1rem;
+  color: var(--text-gray-600);
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.socials a {
+  color: var(--maindark);
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: var(--primary);
+}
+
+.quick__info ul li {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.quick__info ul li a {
+  color: var(--maindark);
+  text-decoration: none;
+  position: relative;
+}
+
+.address p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+}
+
+.address p i {
+  font-size: 20px;
+}
+
+.contact__info .address p:first-child span {
+  padding-left: 6px;
+}
+
+.bottom__bar {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid;
+  border-color: var(--border-gray-200);
+}
+
+.bottom__bar p {
+  color: var(--text-gray-600);
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

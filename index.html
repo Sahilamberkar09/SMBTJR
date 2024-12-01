@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>S. M. B. Torgalkar Junior College</title>
+
+
+
+
+    <!--=============== MAIN CSS LINK ===============-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--=============== FOOTER CSS LINK ===============-->
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+    <!--=============== AOS LIBRARY LINK ===============-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--=============== RESPONSIVE CSS LINK ===============-->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+
+    <!--=============== FONT AWESOME ICONS LINK ===============-->
+    <script src="https://kit.fontawesome.com/84759ac49a.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body onload="loader()">
+    <div id="preloader">
+        <div class="loader">
+            <div>
+                <ul>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg fill="currentColor" viewBox="0 0 90 120">
+                            <path
+                                d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                            </path>
+                        </svg>
+                    </li>
+                </ul>
+            </div><span>Loading</span>
+        </div>
+    </div>
+
+    <div class="main__wrapper">
+        <div class="nav__background">
+            <div class="mobile__nav">
+                <div class="nav__top">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <!-- <li><a href="#">Admission</a></li> -->
+                        <li><a href="#">E-books</a></li>
+                        <!-- <li><a href="#">Merit List</a></li> -->
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Faculty</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <img src="./images/icons/phone.svg" alt="">
+                    <div class="contact__details">
+                        <h5>Call us: (+91) 70576 35016</h5>
+                        <h6>E-mail : smbtjunior@gmail.com</h6>
+                    </div>
+                </div>
+                <div class="time flex items-center">
+                    <img src="./images/icons/clock.svg" alt="">
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - Sat (7.00am - 12.00pm)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Navigation Ends Here -->
+        <!-- Main Site Content Wrapper -->
+        <div class="site__content__wrapper">
+            <!-- Nav Trigger -->
+            <div class="nav__trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" />
+                </svg>
+            </div>
+            <div class="site__content">
+
+                <nav>
+                    <div class="top__info" id="top__info">
+                        <div class="container topbar__container">
+                            <div class="topbar__contact">
+                                <img src="./images/icons/phone.svg" alt="">
+                                <div>
+                                    <h5>Call US: (+91)70576 35016</h5>
+                                    <h6>E-mail : smbtjunior@gmail.com</h6>
+                                </div>
+                            </div>
+                            <div class="branding">
+                                <h1>S. M. B. Torgalkar Junior College, Ratnagiri </h1>
+                            </div>
+                            <div class="topbar__time">
+                                <img src="./images/icons/clock.svg" alt="">
+                                <div>
+                                    <h5>Working Hours:</h5>
+                                    <h6>Mon - Sat (7.00am - 12.00pm)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Desktop Navbar -->
+                    <div class="navbar">
+                        <div class="container navbar__container">
+                            <a href="index.html" class="active">Home</a>
+                            <a href="about.html">About us</a>
+                            <!-- <a href="Admission.html" id="admissions">Admission</a> -->
+                            <a href="ebooks.html">E-Books</a>
+                            <!-- <a href="Merit.html">Merit List</a> -->
+                            <a href="Gallery.html">Gallery</a>
+                            <a href="Faculty.html">Faculty</a>
+                            <a href="Feedback.html">Contact us</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="news__ticker">
+                    <div class="news__ticker__header">
+                        <p>Announcements</p>
+                    </div>
+                    <div class="news__ticker__content">
+                        <ul>
+                            <!-- <?php
+                            $conn = new mysqli('localhost', 'root', '', 'smbtjunior');
+                            if ($conn->connect_error) {
+                                echo "Connection Failed: " . $conn->connect_error;
+                                die();
+                            }
+                            $sql = "SELECT notice1 FROM notices";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                                // Output data of each row
+                                while ($row = $result->fetch_assoc()) {
+                                    echo "<li><a href='#'>" . $row["notice1"] . "</a></li>";
+                                }
+                            } else {
+                                echo "<li>No news items available</li>";
+                            }
+
+                            $conn->close();
+                            ?> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <section class="hero">
+                    <div class="container hero__container" data-aos="fade-up">
+                        <p class="society__name">R. E. Society's</p>
+                        <h1>Shreeman Mangesh Bapuji Torgalkar Junior College</h1>
+                        <p class="tag__line">A <span>reputed</span> Junior College in
+                            Ratnagiri,
+                            Maharashtra</p>
+                        <div>
+                            <button class="cssbuttons-io-button">
+                                Apply Now
+                                <div class="icon">
+                                    <a href="./index.html">
+                                        <svg height="24" width="24" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="about">
+                    <div class="container about__container">
+                        <h2 class="section__title">About College</h2>
+                        <div class="about__main__container">
+                            <div>
+                                <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3"
+                                    alt="College Campus">
+                            </div>
+                            <div>
+                                <div class="info__side">
+                                    <p>"In the academic year 2016-17, considering the increasing number of
+                                        post-10th
+                                        students in
+                                        Ratnagiri district, Ratnagiri Education Society started R. B. Shirke Junior
+                                        College on
+                                        14th July 2016. The college was inaugurated by the then-working President Adv.
+                                        Patne,
+                                        along with Adv. Vijay Sakhalkar, Mrs. Prachi Joshi (Actress), and Governing Body
+                                        Member
+                                        Shri Manoj Patankar."
+                                    </p>
+                                    <div class="counter__container">
+                                        <div class="counter__card__1">
+                                            <h3 id="studentCount">0</h3>
+                                            <p>Students</p>
+                                        </div>
+                                        <div class="counter__card__2">
+                                            <h3 id="facultyCount" data-target="100">0</h3>
+                                            <p>Faculty Members</p>
+                                        </div>
+                                    </div>
+                                    <button class="read-more"><a href="#">
+                                            <span class="circle" aria-hidden="true">
+                                                <span class="icon arrow"></span>
+                                            </span>
+                                            <span class="button-text">Read More</span>
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="notice">
+                    <div class=" notice__container">
+                        <div class="main__container">
+                            <!-- Main Notice Board -->
+                            <div class="main__notice__container">
+                                <div class="message__title">
+                                    <div class="icons">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="Principal__title">
+                                        <h2>Principal's Message</h2>
+                                        <p>Shri. Chavan R.B.</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Welcome to S. M. B. Torgalkar Junior College !
+                                    <br><br>
+                                    At our institution, we are committed to providing a nurturing environment where
+                                    students explore their potential, develop essential skills, and achieve academic
+                                    excellence. Education here goes beyond academics, focusing on holistic growth
+                                    through extracurricular and co-curricular activities.
+                                    <br><br>
+                                    Together, let’s embark on this journey of learning and growth.
+                                    <br>
+                                </p>
+                                <button>Read Full Message
+                                    →</button>
+
+                            </div>
+
+
+                            <div class="main__notice__container">
+                                <div class="notice__card">
+                                    <i class="fa-solid fa-bullhorn"></i>
+                                    <h2>Important Notices</h2>
+                                </div>
+                                <div class="notice__ticker" id="noticeTicker">
+                                    <div class="notice__item">
+                                        <span class="notice__date">Dec 15, 2023</span>
+                                        <h3>Admission Open for 2024</h3>
+                                        <p>Applications are now being accepted for the
+                                            academic year 2024-25.</p>
+                                    </div>
+                                    <div class="notice__item">
+                                        <span class="notice__date">Dec 15, 2023</span>
+                                        <h3>Admission Open for 2024</h3>
+                                        <p>Applications are now being accepted for the
+                                            academic year 2024-25.</p>
+                                    </div>
+                                    <div class="notice__item">
+                                        <span class="notice__date">Dec 15, 2023</span>
+                                        <h3>Admission Open for 2024</h3>
+                                        <p>Applications are now being accepted for the
+                                            academic year 2024-25.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- =============================================================================== -->
+
+                <section class="academics">
+                    <div class="container">
+                        <h2 class="section__title">Academic Excellence</h2>
+                        <p class="subtitle">Celebrating our top performers over the years</p>
+
+                        <!-- Science Stream -->
+                        <div class="science">
+                            <div class="science__title ">
+                                <h3>Science Stream</h3>
+                                <div class="line"></div>
+                            </div>
+                            <div class="science__container">
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2022</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Qazi Hina Salim</p>
+                                        <p class="achiever__percents">67.00%</p>
+                                        <p class="achiever__marks">402 / 600</p>
+                                    </div>
+
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2021</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Sawant Nilam Sachin</p>
+                                        <p class="achiever__percents">80.33%</p>
+                                        <p class="achiever__marks">482 / 600</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2020</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Mr. Gore Tushar Pandhurang</p>
+                                        <p class="achiever__percents">70.77%</p>
+                                        <p class="achiever__marks">460 / 650</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2019</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Mr. Jig Siddharth Rajiv</p>
+                                        <p class="achiever__percents">63.08%</p>
+                                        <p class="achiever__marks">410 / 650</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2018</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Anvekar Nikita Gurudas</p>
+                                        <p class="achiever__percents">60.15%</p>
+                                        <p class="achiever__marks">361 / 650</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Commerce Stream -->
+                        <div>
+                            <div class="commerce__title">
+                                <h3>Commerce Stream</h3>
+                                <div class="line"></div>
+                            </div>
+                            <div class="commerce__container">
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2022</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Mr. Mahadik Praful Sandip</p>
+                                        <p class="achiever__percents">73.83%</p>
+                                        <p class="achiever__marks">443 / 600</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2021</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Narkar Gauri Shantaram</p>
+                                        <p class="achiever__percents">76.83%</p>
+                                        <p class="achiever__marks">459 / 600</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2020</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Badkas Manasi Vilas</p>
+                                        <p class="achiever__percents">76.50%</p>
+                                        <p class="achiever__marks">549 / 650</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2019</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Sawant Siddhi Milind</p>
+                                        <p class="achiever__percents">73.69%</p>
+                                        <p class="achiever__marks">479 / 650</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement__year">2018</div>
+                                    <div class="mobile__flex">
+                                        <p class="achiever__name">Miss. Agarwal Ruchita Gopal</p>
+                                        <p class="achiever__percents">86.46%</p>
+                                        <p class="achiever__marks">562 / 650</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- =============================================================================== -->
+                <section class="facilities">
+                    <div class="container facilities__container">
+                        <h2 class="section__title">Facilities We Provide</h2>
+                        <div class="facilities__card__container">
+                            <div class="facility__card ">
+                                <div class=" icons">
+                                    <i class="fa-solid fa-laptop"></i>
+                                </div>
+                                <h3>Digital Learning</h3>
+                                <p>Classrooms equipped with modern technology
+                                </p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Interactive whiteboards
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Computer labs
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Digital library
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="facility__card">
+                                <div class="icons">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-4">Learning Resources</h3>
+                                <p class="text-gray-600">Extensive library and Practical Labs facility.</p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        50,000+ books
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Seperate Labs
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Study zones
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="facility__card">
+                                <div class="icons">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-4">Extra Curricular Activities</h3>
+                                <p>Many Activities carried out throughout the Academic Year.</p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Sports and Fitness
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Cultural Events
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Skill Development
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="footer__section">
+                    <div class="footer__container">
+                        <div class="container__grid">
+
+                            <!-- College Info -->
+                            <div class="college__info">
+                                <h3>S.M.B.T. Junior College</h3>
+                                <p>Empowering minds, shaping futures. Join us in our journey of
+                                    academic
+                                    excellence.</p>
+                                <div class="socials">
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Quick Links -->
+                            <div class="quick__info">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">E-books</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Faculty</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Contact Info -->
+                            <div class="contact__info">
+                                <h3>Contact Us</h3>
+                                <div class="address">
+                                    <p>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>
+                                            S.M.B.T Junior College, Mal Naka, Ratnagiri, Maharashtra 415612
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span>
+                                            +91 12345 67890
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <span>
+                                            smbtcollegertn@gmail.com
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <i class="fa-solid fa-clock"></i>
+                                        <span>
+                                            Mon - Fri: 8:00 AM - 5:00 PM
+                                        </span>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Map -->
+                            <div class="map__info">
+                                <h3 class="text-xl font-bold text-sky-800">Find Us</h3>
+                                <div class="map__container rounded-lg overflow-hidden shadow-lg">
+
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.636331300454!2d73.3038158750009!3d16.99242958382895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea0d000190ea3d%3A0xcaf0c0db3ce472c9!2sS.%20M.%20B.%20Torgalkar%20Junior%20College%2C%20Ratnagiri!5e0!3m2!1sen!2sin!4v1732961966377!5m2!1sen!2sin"
+                                        width="100%" height="200" style="border:0;" allowfullscreen=""
+                                        loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Bar -->
+                        <div class="bottom__bar">
+                            <p>© 2025 S. M. B. Torgalkar Junior College. All rights
+                                reserved.
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Js Scripts  -->
+    <!--=============== JQUERY ===============-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 1000, // Animation duration in milliseconds
+                easing: 'ease-in-out', // Easing style
+                once: true, // Whether animation should happen only once
+                offset: 120
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

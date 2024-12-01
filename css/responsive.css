@@ -1,0 +1,92 @@
+@media (max-width: 992px) {
+  .nav__trigger {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  section.hero {
+    background-position: 40% 54%;
+    overflow: hidden;
+  }
+  .hero__container {
+    animation: none;
+  }
+
+  .info__content {
+    flex-wrap: wrap;
+    padding: 2rem 2rem 5rem 2rem;
+  }
+  .info__logo img {
+    width: 100%;
+  }
+  .main__container {
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0;
+  }
+
+  .about__main__container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 0 2rem;
+    gap: 1rem;
+  }
+  .facilities__card__container {
+    flex-direction: column;
+  }
+  .facility__card {
+    width: 100%;
+  }
+
+  .container__grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .science__container,
+  .commerce__container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .mobile__flex {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .counter__container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+/* Min Width css */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .topbar__container .branding {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
